@@ -1,0 +1,12 @@
+.sec4_img,.sec3_slider_item_img{
+    position: relative;
+}
+.sec4_img::after,.sec3_slider_item_img_ovrly{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(116deg, rgba(193, 222, 232, 0.70) 9.86%, rgba(255, 255, 255, 0.00) 52.13%, rgba(251, 217, 185, 0.70) 97.99%);
+}
